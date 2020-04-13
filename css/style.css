@@ -395,19 +395,22 @@ body {
 
 img {
   width: 100%;
+  height: 100%;
 }
 
 .section {
   padding-top: 80px;
   padding-bottom: 90px;
   position: relative;
+  z-index: 1;
 }
 
 .section__bg {
   opacity: 0.05;
   position: absolute;
   top: 0;
-  z-index: -1;
+  z-index: 0;
+  height: 100%;
 }
 
 .button {
@@ -451,6 +454,10 @@ img {
   left: -1.5rem;
 }
 
+.section-title__number--dark {
+  color: rgba(185, 185, 185, 0.05);
+}
+
 .section-title__heading {
   font-family: "Playfair Display", serif;
   font-size: 2.21rem;
@@ -465,6 +472,14 @@ img {
   font-weight: 400;
   line-height: 30.89px;
   letter-spacing: 0.84px;
+}
+
+.section-title__text--dark {
+  color: #b9b9b9;
+}
+
+.section-title--dark {
+  color: #ffffff;
 }
 
 .header {
@@ -586,4 +601,81 @@ img {
       -ms-flex-align: end;
           align-items: flex-end;
   height: 100vh;
+}
+
+.about {
+  background-color: #ffffff;
+}
+
+.about__title {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.about__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 3rem;
+}
+
+.history {
+  color: #111111;
+  font-family: 'Open Sans', sans-serif;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  z-index: 1;
+}
+
+.history__year {
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 0.84px;
+  width: 7rem;
+}
+
+.history__text {
+  font-size: 1.14rem;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.64px;
+}
+
+.history__cell {
+  margin-bottom: 2.5rem;
+  display: inline-block;
+}
+
+.expertise {
+  -ms-flex-preferred-size: 42%;
+      flex-basis: 42%;
+  margin-left: 1rem;
+  z-index: 1;
+}
+
+.expertise__text {
+  color: #666666;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0.56px;
+  margin-top: 0;
+}
+
+.practis {
+  background-color: #111111;
 }
