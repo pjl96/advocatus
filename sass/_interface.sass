@@ -9,3 +9,37 @@
   border: none
   outline: none
   cursor: pointer
+.section-title 
+  position: relative
+  max-width: 55.93rem
+  margin-left: 19px
+  &::before 
+    content: ''
+    width: 2px
+    height: 115px
+    background-color: $primary
+    position: absolute
+    bottom: 0 
+    left: -19px
+  &__number 
+    color: rgba($dark, 0.05) 
+    font-family: 'Open Sans', sans-serif
+    font-size: 13.93rem
+    font-weight: 400
+    letter-spacing: 0.56px
+    margin: 0
+    position: absolute
+    top: -4rem
+    left: -1.5rem
+  &__heading 
+    font-family: "Playfair Display", serif
+    font-size: 2.21rem
+    font-weight: 400
+    letter-spacing: 1.24px
+  &__text 
+    color: $gray
+    font-family: "Playfair Display", serif
+    font-size: 1.5rem
+    font-weight: 400
+    line-height: 30.89px
+    letter-spacing: 0.84px

@@ -1,13 +1,14 @@
 .hero 
   height: 100vh
   background: url('../img/hero-bg.webp') no-repeat center 100px / cover
-  padding-top: 100px
-  display: flex
+  padding-bottom: 0
   &__info 
     display: flex
-    justify-content: space-around
+    justify-content: space-between
     align-items: baseline
-    margin-top: 35rem
+    width: 100%
+    margin-bottom: 12.7rem
+    margin-left: 5rem
   &__text 
     position: relative
     &::before 
@@ -37,3 +38,7 @@
     padding: 13px 47px 13px 46px
     padding-left: 46px
     padding-right: 47px
+  &__wrapper 
+    display: flex
+    align-items: flex-end
+    height: 100vh
