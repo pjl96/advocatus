@@ -1,1 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1071" height="748" viewBox="0 0 1071 748"><g><g opacity=".05"><path d="M1071 0h-1v748h1z"/></g><g opacity=".05"><path d="M971 0h-1v748h1z"/></g><g opacity=".05"><path d="M771 0h-1v748h1z"/></g><g opacity=".05"><path d="M601 0h-1v748h1z"/></g><g opacity=".05"><path d="M471 0h-1v748h1z"/></g><g opacity=".05"><path d="M371 0h-1v748h1z"/></g><g opacity=".05"><path d="M171 0h-1v748h1z"/></g><g opacity=".05"><path d="M1 0H0v748h1z"/></g></g></svg>
+<svg width="1071" height="748" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1">
+   <g id="svg_2" opacity="0.05">
+    <path fill="#ffffff" id="svg_3" d="m1071,0l-1,0l0,748l1,0l0,-748z"/>
+   </g>
+   <g id="svg_4" opacity="0.05">
+    <path fill="#ffffff" id="svg_5" d="m971,0l-1,0l0,748l1,0l0,-748z"/>
+   </g>
+   <g id="svg_6" opacity="0.05">
+    <path fill="#ffffff" id="svg_7" d="m771,0l-1,0l0,748l1,0l0,-748z"/>
+   </g>
+   <g id="svg_8" opacity="0.05">
+    <path fill="#ffffff" id="svg_9" d="m601,0l-1,0l0,748l1,0l0,-748z"/>
+   </g>
+   <g id="svg_10" opacity="0.05">
+    <path fill="#ffffff" id="svg_11" d="m471,0l-1,0l0,748l1,0l0,-748z"/>
+   </g>
+   <g id="svg_12" opacity="0.05">
+    <path fill="#ffffff" id="svg_13" d="m371,0l-1,0l0,748l1,0l0,-748z"/>
+   </g>
+   <g id="svg_14" opacity="0.05">
+    <path fill="#ffffff" id="svg_15" d="m171,0l-1,0l0,748l1,0l0,-748z"/>
+   </g>
+   <g id="svg_16" opacity="0.05">
+    <path fill="#ffffff" id="svg_17" d="m1,0l-1,0l0,748l1,0l0,-748z"/>
+   </g>
+  </g>
+ </g>
+</svg>
