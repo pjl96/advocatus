@@ -393,8 +393,9 @@ body {
   font-size: 1rem;
 }
 
-img {
+.bg-img {
   height: 100%;
+  width: 100%;
 }
 
 .section {
@@ -740,4 +741,42 @@ img {
   line-height: 25px;
   letter-spacing: 0.56px;
   line-height: 31px;
+}
+
+.attorney__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 3.57rem;
+}
+
+.attorney__card {
+  z-index: 1;
+}
+
+.attorney__name {
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.84px;
+  margin: 0;
+  margin-top: 2rem;
+}
+
+.attorney__job {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.56px;
+  font-size: 1rem;
+  color: #666666;
+  display: block;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
 }
